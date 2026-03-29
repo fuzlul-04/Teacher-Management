@@ -51,7 +51,7 @@
                     <label for="phone" class="block text-sm font-medium text-gray-700 mb-2">Phone Number</label>
                     <input type="text" name="phone" id="phone" value="{{ old('phone', $teacher->phone) }}"
                         class="w-full px-4 py-3 rounded-xl border border-gray-300 text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent @error('phone') border-red-500 @enderror"
-                        placeholder="+1 (555) 000-0000">
+                        placeholder="+880 1XXXXXXXXX">
                     @error('phone')
                         <p class="mt-2 text-sm text-red-500">{{ $message }}</p>
                     @enderror

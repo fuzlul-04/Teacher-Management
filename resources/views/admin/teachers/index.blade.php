@@ -8,7 +8,7 @@
     <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
         <div>
             <h2 class="text-2xl font-bold text-gray-800">All Teachers</h2>
-            <p class="text-gray-500 mt-1">Manage your school's teachers and their subject assignments</p>
+            <p class="text-gray-500 mt-1">Manage your college's teachers and their subject assignments</p>
         </div>
         <a href="{{ route('admin.teachers.create') }}" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-blue-600 text-white font-medium hover:bg-blue-700 transition-colors shadow-sm">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

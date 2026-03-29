@@ -102,3 +102,4 @@ class ClassController extends Controller
             ->with('success', 'Class deleted successfully.');
     }
 }
+
